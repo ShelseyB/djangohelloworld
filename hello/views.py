@@ -16,4 +16,4 @@ def index(request):
         words = "You are the 1st visitor!"
     else:
         words = "You are visitor #"+str(row.visits)
-    return HttpResponse("Hello, world! It's " + time.strftime('%c') + "\n" + words)
+    return HttpResponse("Hello, world! It's " + time.strftime('%c') + ". " + words + ".")
