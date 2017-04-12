@@ -1,7 +1,13 @@
 li a {
-    color: green;
+    color: yellow;
 }
 
 body {
-    background: white url("images/background.jpg") no-repeat right bottom;
+    background: purple url("images/background.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: blue;
 }
