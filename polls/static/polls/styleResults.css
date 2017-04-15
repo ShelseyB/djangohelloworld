@@ -1,9 +1,10 @@
 h1{
     color: white;
+    font-family: fantasy;
 }
 
 body {
-    background-color: green;
+    background-color: lime;
 }
 
 li {
